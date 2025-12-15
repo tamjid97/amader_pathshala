@@ -5,7 +5,7 @@ import Footer from '../Register/Footer';
 
 const HomeLayout = () => {
   return (
-    <div>
+    <div className=' bg-green-50'>
       <Navbar/>
 
       <main>

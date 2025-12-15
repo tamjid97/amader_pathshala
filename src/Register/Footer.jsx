@@ -18,7 +18,7 @@ const Footer = () => {
                 Whether you’re growing healthy crops or caring for animals,{" "}
                 <br /> find trusted local services, farming tools, and expert
                 guides. <br /> Our platform connects farmers and pet owners
-                nationwide, <br /> keeping every field green and every friend
+                nationwide, <br /> keeping every field green and every  ``
                 happy.
               </p>
             </div>
