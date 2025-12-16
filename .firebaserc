@@ -1,0 +1,16 @@
+{
+  "projects": {
+    "default": "amaderpathshala-21244",
+    "prod": "amaderpathshala-21244"
+  },
+  "targets": {},
+  "etags": {},
+  "hosting": {
+    "public": "dist",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

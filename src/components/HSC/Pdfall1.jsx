@@ -1,22 +1,13 @@
 import React from "react";
 import chapter1Img from "../../assets/cap1-pd1.jpeg";
-import chapter2Img from "../../assets/cap1-pd2.jpeg";
-import chapter3Img from "../../assets/book2.jpeg";
+import chapter2Img from "../../assets/chapter2pp11.png";
+
 
 const Pdfall1 = () => {
   const chapters = [
     { id: 1, title: "অধ্যায় ১", img: chapter1Img, link: "https://drive.google.com/file/d/1lp6SnNPNUKMciEmOtHQ7OQNhPtaRpXM8/view?fbclid=IwY2xjawOt7sZleHRuA2FlbQIxMQBzcnRjBmFwcF9pZAwzNTA2ODU1MzE3MjgAAR67JmxwXhT9eWZPNGnMNg0Zp307XcAGi6VNahvDi4hAA8H9yr-uz5nQx_D_dA_aem_i2fUnJF8EheFczVFNQfEsg" },
     { id: 2, title: "অধ্যায় ২", img: chapter2Img, link: "/pdf/chapter2" },
-    { id: 3, title: "অধ্যায় ৩", img: chapter3Img, link: "/pdf/chapter3" },
-    { id: 4, title: "অধ্যায় ৪", img: chapter3Img, link: "/pdf/chapter4" },
-    { id: 5, title: "অধ্যায় ৫", img: chapter3Img, link: "/pdf/chapter5" },
-    { id: 6, title: "অধ্যায় ৬", img: chapter3Img, link: "/pdf/chapter6" },
-    { id: 7, title: "অধ্যায় ৭", img: chapter3Img, link: "/pdf/chapter7" },
-    { id: 8, title: "অধ্যায় ৮", img: chapter3Img, link: "/pdf/chapter8" },
-    { id: 9, title: "অধ্যায় ৯", img: chapter3Img, link: "/pdf/chapter9" },
-    { id: 10, title: "অধ্যায় ১০", img: chapter3Img, link: "/pdf/chapter10" },
-    { id: 11, title: "অধ্যায় ১১", img: chapter3Img, link: "/pdf/chapter11" },
-    { id: 12, title: "অধ্যায় ১২", img: chapter3Img, link: "/pdf/chapter12" },
+  
   ];
 
   return (
@@ -52,10 +43,7 @@ const Pdfall1 = () => {
               </div>
             </div>
 
-            {/* Bottom Title */}
-            <h4 className="text-center text-green-900 font-semibold text-lg sm:text-xl mt-3">
-              {chapter.title}
-            </h4>
+            
           </div>
         ))}
       </div>

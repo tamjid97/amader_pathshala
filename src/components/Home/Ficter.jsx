@@ -55,12 +55,12 @@ const Ficter = () => {
   const navigate = useNavigate();
 
   const handleClick = (id) => {
-    if (id === "practice") navigate("/practice");
-    else if (id === "board") navigate("/board-question");
-    else if (id === "mcq") navigate("/mcq");
-    else if (id === "qa") navigate("/qa");
-    else if (id === "course") navigate("/course");
-    else if (id === "pdf") navigate("/pdf");
+    if (id === "practice") navigate("pactis");
+    else if (id === "board") navigate("bordan");
+    else if (id === "mcq") navigate("Mcq");
+    else if (id === "qa") navigate("qnapdf");
+    else if (id === "course") navigate("Exam");
+    else if (id === "pdf") navigate("HSC");
   };
 
   return (

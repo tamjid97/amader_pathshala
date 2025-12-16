@@ -6,10 +6,10 @@ import boardImg from "../../assets/cq.jpeg";
 
 const ExamSection = () => {
   const sections = [
-    { id: 1, title: "CQ", img: cqImg, link: "/cq" },
-    { id: 2, title: "MCQ", img: mcqImg, link: "/mcq" },
-    { id: 3, title: "Q&A", img: qaImg, link: "/qa" },
-    { id: 4, title: "Board Question", img: boardImg, link: "/board" },
+    { id: 1, title: "CQ", img: cqImg, link: "pactis" },
+    { id: 2, title: "MCQ", img: mcqImg, link: "Mcq" },
+    { id: 3, title: "Q&A", img: qaImg, link: "qnapdf" },
+    { id: 4, title: "Board Question", img: boardImg, link: "bordan" },
   ];
 
   return (

@@ -31,7 +31,7 @@ const Sir = () => {
             "শিক্ষা হলো আলো, যা অন্ধকারের মধ্যেও পথ দেখায়। আমাদের লক্ষ্য শিক্ষার্থীদের সর্বোত্তম সুযোগ ও জ্ঞান প্রদান করা।"
           </p>
 
-          <Link to="/sirDetails" className="bg-green-500 text-white font-semibold px-8 py-3 rounded-2xl shadow-md hover:bg-green-600 hover:shadow-lg transition duration-300 transform hover:-translate-y-1">
+          <Link to="/sirDetails22" className="bg-green-500 text-white font-semibold px-8 py-3 rounded-2xl shadow-md hover:bg-green-600 hover:shadow-lg transition duration-300 transform hover:-translate-y-1">
             View Details
           </Link>
         </div>
