@@ -1,5 +1,6 @@
 import React from "react";
 import sirimg from "../../assets/462133254_1046311946972314_2939793844339582756_n.jpg";
+import { Link } from "react-router";
 
 const Sir = () => {
   return (
@@ -30,9 +31,9 @@ const Sir = () => {
             "শিক্ষা হলো আলো, যা অন্ধকারের মধ্যেও পথ দেখায়। আমাদের লক্ষ্য শিক্ষার্থীদের সর্বোত্তম সুযোগ ও জ্ঞান প্রদান করা।"
           </p>
 
-          <button className="bg-green-500 text-white font-semibold px-8 py-3 rounded-2xl shadow-md hover:bg-green-600 hover:shadow-lg transition duration-300 transform hover:-translate-y-1">
+          <Link to="/sirDetails" className="bg-green-500 text-white font-semibold px-8 py-3 rounded-2xl shadow-md hover:bg-green-600 hover:shadow-lg transition duration-300 transform hover:-translate-y-1">
             View Details
-          </button>
+          </Link>
         </div>
 
       </div>

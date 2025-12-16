@@ -12,8 +12,8 @@ const Fidbac = () => {
   return (
     <div className="bg-green-50 py-20 px-6 flex flex-col items-center">
       {/* Section Heading */}
-      <h1 className="text-4xl sm:text-5xl font-extrabold text-green-900 mb-16 text-center leading-tight">
-        শিক্ষার্থীদের ফিডব্যাক
+      <h1 className="text-xl sm:text-5xl font-extrabold text-green-900 mb-16 text-center leading-tight">
+        কেন আমরাই শিক্ষার্থী ও অভিভাবকদের প্রথম পছন্দ?
       </h1>
 
       {/* Swiper Carousel */}

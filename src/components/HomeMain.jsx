@@ -8,6 +8,8 @@ import Fidbac from './Home/Fidbac';
 import Extrasection from './Home/Extrasection';
 import NewMember from './Home/NewMamber';
 import Location from './Home/Location';
+import Ficter from './Home/Ficter';
+import Damoclass from './Home/Damoclass';
 
 
 
@@ -19,8 +21,17 @@ const HomeMain = () => {
         <PicSlider/>
       </div>
       {/* শিক্ষার্থীদের জন্য আমাদের একাডেমিক সেবা */}
-      <div className='flex justify-center mt-15'>
+      <div className='flex justify-center -mt-10'>
         <SabaHscScs/>
+      </div>
+      {/* fct */}
+      <div className='-mt-30'>
+        <Ficter/>
+      </div>
+
+      {/* damoclass */}
+      <div className='-mt-15'>
+        <Damoclass/>
       </div>
       {/* sir */}
       <div >
@@ -31,19 +42,19 @@ const HomeMain = () => {
         <Study/>
       </div>
       {/* class rum */}
-      <div >
+      <div className='-mt-10' >
         <ClassRum/>
       </div>
       {/* fidbac */}
-      <div>
+      <div className='-mt-20'>
         <Fidbac/>
       </div>
       {/* extra */}
-      <div>
+      <div className='-mt-20'>
         <Extrasection/>
       </div>
       {/* new student */}
-      <div>
+      <div className='-mt-10'>
         <NewMember/>
       </div>
       {/* location */}
