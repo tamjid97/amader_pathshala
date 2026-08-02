@@ -1,4 +1,4 @@
-# 🌿 KrishiLink - Biology Learning & Resource Portal
+# 📑 AmaderPathshala - Biology Learning & Resource Portal
 
 > **An interactive, frontend-only biology study platform designed in Figma and built for fast navigation, visual learning, and instant PDF resource downloads.**
 
