@@ -1,16 +1,41 @@
-# React + Vite
+# 🌿 KrishiLink - Biology Learning & Resource Portal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> **An interactive, frontend-only biology study platform designed in Figma and built for fast navigation, visual learning, and instant PDF resource downloads.**
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo & Repository
 
-## React Compiler
+* 🌐 **Live Website:** https://amaderpathshala-21244.web.app
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack & Tools
+
+<p align="left">
+  <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white" />
+  <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=flat&logo=framer&logoColor=white" />
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black" />
+  <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=figma&logoColor=white" />
+</p>
+
+* **Frontend Framework:** React.js, JavaScript (ES6+)
+* **Styling & UI Components:** Tailwind CSS, Custom UI
+* **Animations:** Framer Motion
+* **Hosting & Backend Services:** Firebase Hosting
+* **UI/UX Design:** Figma
+
+---
+
+## ✨ Key Features
+
+* **🎨 Figma-Crafted UI/UX:** Designed with a clean, pixel-perfect layout focusing on student accessibility and visual clarity.
+* **📚 One-Click PDF Downloads:** Allows students to directly view and download essential biology PDF notes, guides, and study materials.
+* **⚡ Lightweight Client-Side Architecture:** Built entirely on the frontend without custom backend dependencies, ensuring ultra-fast load times.
+* **✨ Smooth Motion Dynamics:** Interactive animations, card transitions, and visual feedback powered by Framer Motion.
+* **📱 Fully Responsive Design:** Seamlessly adapts across mobile, tablet, and desktop screens for on-the-go learning.
+
+---
